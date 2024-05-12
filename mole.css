@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url(./Mario\ Bg.jpg);
+    background-size: cover;
+}
+
+#board{
+    width: 540px;
+    height: 540px;
+    background-color: green;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    background: url(./soil.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+#board div {
+    /* board = 540*540px divided into 3*3 tiles = 180*180 per div */
+    width: 180px;
+    height: 180px;
+    background-image: url(./pipe.jpg);
+    background-size: cover;
+}
+
+#board div img{
+    /* all image tag inside the tile div tag */
+    width: 100px;
+    height: 100px;
+}
